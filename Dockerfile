@@ -2,7 +2,7 @@ FROM debian:jessie
 
 MAINTAINER Addis Dittebrandt <addis.dittebrandt@gmail.com>
 
-ENV FACTORIO_VERSION 0.12.26
+ENV FACTORIO_VERSION 0.12.29
 ADD md5.txt /opt
 
 RUN apt-get update
